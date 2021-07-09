@@ -1,0 +1,7 @@
+identifier should not start with 0 to 9
+identifier should not use keyword/reserved work as identifier
+identifier should not use special symbols 
+
+
+identifier should start with a to z or A to Z
+identifier shold start with $ and __ (speical cases)
