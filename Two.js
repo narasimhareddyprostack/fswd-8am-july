@@ -1,0 +1,1 @@
+21 % 7 == 0  ? console.log("Divisible"):console.log(" NotDivisible")
