@@ -1,12 +1,12 @@
-import React from 'react'
-import Navbar from './components/Navbar'
+import React from "react";
+/* import './assets/css/one.css' */
 function App() {
-    return <React.Fragment>
-        <Navbar />
-        <h1>Hello, GM</h1>
-        <h2>Pro Stack Academy......</h2>
-
-
-    </React.Fragment>
+  return (
+    <div>
+      <h1>Welcome PSA</h1>
+      <button className="btn btn-success">Login</button>
+    </div>
+  );
 }
-export default App
+
+export default App;
