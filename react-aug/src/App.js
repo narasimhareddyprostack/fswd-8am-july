@@ -1,12 +1,13 @@
 import React from "react";
-import CompA from "./Props/CompA";
-let App = () => {
+import Product from "./Data/Product";
+function App() {
   return (
-    <React.Fragment>
-      <h1>App - Component</h1>
+    <>
+      <h2> App Component - Data</h2>
       <hr />
-      <CompA />
-    </React.Fragment>
+      <Product />
+    </>
   );
-};
+}
+
 export default App;
