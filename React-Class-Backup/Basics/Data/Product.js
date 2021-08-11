@@ -12,6 +12,7 @@ function Product() {
   };
   return (
     <React.Fragment>
+      <h4>{JSON.stringify(more_Details)}</h4>
       <div className="container">
         <div className="row">
           <div className="col-md-3">
