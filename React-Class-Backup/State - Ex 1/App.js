@@ -1,12 +1,16 @@
 import React, { Component } from "react";
-import Navbar from "./components/Navbar/Navbar";
 import Wish from "./components/StateEx/Wish";
+import Employee from "./Table/Employee";
 class App extends Component {
   render() {
     return (
       <div>
-        <Navbar />
-        <Wish />
+        <h2> React State Example </h2>
+        {/* <hr />
+        <Wish /> */}
+        <hr />
+
+        <Employee />
       </div>
     );
   }

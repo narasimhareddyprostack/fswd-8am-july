@@ -1,12 +1,8 @@
 import React from "react";
 class Wish extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      message: "Hello...",
-    };
-  }
-
+  state = {
+    message: "Hello...",
+  };
   gmMessageHanlder = () => {
     this.setState({ message: "Good Morning" });
   };
