@@ -6,7 +6,7 @@ class Navbar extends Component {
       <div>
         <nav className="navbar navbar-dark bg-dark">
           <a href="/home" className="navbar-brand">
-            React Event Handling Example Example
+            React State Example
           </a>
         </nav>
       </div>
