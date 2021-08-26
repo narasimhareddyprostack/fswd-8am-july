@@ -22,19 +22,10 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               <Link className="nav-link active" to="/home">
-                Home
+                React Hooks
               </Link>
-              <Link className="nav-link" to="/movies">
-                Movies
-              </Link>
-              <Link className="nav-link" to="/login">
-                Login
-              </Link>
-              <Link className="nav-link" to="/videos" tabindex="-1">
-                Videos
-              </Link>
-              <Link to="/contact" className="nav-link">
-                Contact US
+              <Link className="nav-link active" to="/counter">
+                React Hooks - Counter
               </Link>
             </div>
           </div>
