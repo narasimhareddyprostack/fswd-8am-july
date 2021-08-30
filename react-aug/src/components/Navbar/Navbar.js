@@ -27,6 +27,9 @@ class Navbar extends Component {
               <Link className="nav-link active" to="/counter">
                 React Hooks - Counter
               </Link>
+              <Link className="nav-link active" to="/user">
+                Axios - User Data
+              </Link>
             </div>
           </div>
         </nav>
